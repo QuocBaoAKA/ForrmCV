@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <style>
+      .headinh_top {
+        margin-top: 5px;
+      }
+      .heading_text {
+        display: flex;
+      }
+      .heading_text .form-control {
+        width: 100%;
+        margin-left: 15px;
+        box-shadow: none;
+        border: none;
+        border-bottom: 1px dotted;
+        border-radius: 0;
+      }
+      .heading_text label {
+        padding-top: 18px;
+      }
+      .heading_text .a1 {
+        width: 100%;
+      }
+      .heading_text .a2 {
+        width: 100%;
+      }
+      .heading_text .a3 {
+        width: 100%;
+      }
+      .h2_top {
+        text-align: center;
+        padding-top: 15px;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .avatar-img {
+        width: 100px;
+        height: 150px;
+        border: 1px solid #000;
+      }
+      .hd_001 {
+        display: flex;
+      }
+      .hd_001 .a4 {
+        width: 10%;
+      }
+      .hd_001 .a5 {
+        width: 19%;
+      }
+      .hd_001 .a6 {
+        width: 35%;
+      }
+      .hd_001 .a7 {
+        width: 67%;
+      }
+      .hd_001 .a8 {
+        width: 78.4%;
+      }
+      .hd_001 .a9 {
+        width: 65%;
+      }
+      .hd_001 .a10 {
+        width: 10%;
+      }
+      .table {
+        width: 91.5%;
+        border: 1px solid #ccc;
+      }
+      .table tr th {
+        font-weight: 400;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="headinh_top">
+        <div class="heading_text">
+          <label>Cơ quan, đơn vị có thẩm quyền quản lý CBCC</label
+          ><input type="text" class="form-control" />
+        </div>
+        <div class="heading_text">
+          <label>Cơ quan, đơn vị sử dụng CBCC</label
+          ><input type="text" class="form-control a1" />
+        </div>
+        <h2 class="h2_top">SƠ YẾU LÝ LỊCH CÁN BỘ, CÔNG CHỨC</h2>
+      </div>
+      <div class="row">
+        <div class="col-sm-2">
+          <div class="avatar-img">
+            <p>Ảnh 4/6</p>
+          </div>
+        </div>
+        <div class="col-md-10">
+          <div class="heading_text">
+            <label>1) Họ và tên khai sinh (viết chữ in hoa):</label
+            ><input type="text" class="form-control a2" />
+          </div>
+          <div class="heading_text">
+            <label>2) Tên gọi khác:</label
+            ><input type="text" class="form-control a3" />
+          </div>
+          <div class="heading_text">
+            <label>2) Tên gọi khác:</label
+            ><input type="text" class="form-control a3" />
+          </div>
+          <div class="heading_text hd_001">
+            <label>3) Sinh ngày:</label
+            ><input type="text" class="form-control a4" /> <label>tháng:</label
+            ><input type="text" class="form-control a4" /> <label>năm:</label
+            ><input type="text" class="form-control a4" />
+            <label>, Giới tính (nam, nữ):</label
+            ><input type="text" class="form-control a4" style="width: 29.4%" />
+          </div>
+          <div class="heading_text hd_001">
+            <label>4) Nơi sinh: Xã</label
+            ><input type="text" class="form-control a5" />
+            <label>, Huyện:</label
+            ><input type="text" class="form-control a5" /> <label>, Tỉnh:</label
+            ><input type="text" class="form-control a5" style="width: 24%" />
+          </div>
+          <div class="heading_text hd_001">
+            <label>5) Quê quán: Xã</label
+            ><input type="text" class="form-control a5" />
+            <label>, Huyện:</label
+            ><input type="text" class="form-control a5" /> <label>, Tỉnh:</label
+            ><input type="text" class="form-control a5" style="width: 23%" />
+          </div>
+        </div>
+      </div>
+      <div class="heading_text hd_001">
+        <label>6) Dân tộc:</label><input type="text" class="form-control a6" />
+        <label>, 7) Tôn giáo:</label
+        ><input type="text" class="form-control a6" style="width: 38%" />
+      </div>
+      <div class="heading_text hd_001">
+        <label>8) Nơi đăng ký bộ khẩu thường trú: </label
+        ><input type="text" class="form-control a7" />
+      </div>
+      <p>(Số nhà, đường phố, thành phố, xóm, thôn, xã, huyện, tỉnh)</p>
+      <div class="heading_text hd_001">
+        <label>9) Nơi ở hiện nay: </label
+        ><input type="text" class="form-control a8" />
+      </div>
+      <p>(Số nhà, đường phố, thành phố, xóm, thôn, xã, huyện, tỉnh)</p>
+      <div class="heading_text hd_001">
+        <label>10) Nghề nghiệp khi được tuyển dụng: </label
+        ><input type="text" class="form-control a9" />
+      </div>
+      <div class="heading_text hd_001">
+        <label>11) Ngày tuyển dụng</label
+        ><input type="text" class="form-control a10" /> <label>/</label
+        ><input type="text" class="form-control a10" /> <label>/</label
+        ><input type="text" class="form-control a10" />
+        <label>, Cơ quan tuyển dụng:</label
+        ><input type="text" class="form-control a5" style="width: 27%" />
+      </div>
+      <div class="heading_text hd_001">
+        <label>12) Chức vụ (chức danh) hiện tại: </label
+        ><input type="text" class="form-control" style="width: 69%" />
+      </div>
+      <p>(Về chính quyền hoặc Đảng, đoàn thể, kể cả chức vụ kiêm nhiệm)</p>
+      <div class="heading_text hd_001">
+        <label>13) Công việc chính được giao: </label
+        ><input type="text" class="form-control" style="width: 70.5%" />
+      </div>
+
+      <label
+        >27) Đào tạo, bồi dưỡng về chuyên môn, nghiệp vụ, lý luận chính trị,
+        ngoại ngữ, tin học</label
+      >
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"
+  ></script>
+</html>
